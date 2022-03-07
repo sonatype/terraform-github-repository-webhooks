@@ -23,7 +23,7 @@
 
 | Name | Type |
 |------|------|
-| [github_repository_webhook.default](https://registry.terraform.io/providers/hashicorp/github/3.0.0/docs/resources/repository_webhook) | resource |
+| [github_repository_webhook.default](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository_webhook) | resource |
 
 ## Inputs
 

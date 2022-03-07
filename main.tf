@@ -1,7 +1,7 @@
 provider "github" {
-  token        = var.github_token != "" ? var.github_token : null
-  organization = var.github_organization
-  base_url     = var.github_base_url
+  token    = var.github_token != "" ? var.github_token : null
+  owner    = var.github_organization
+  base_url = var.github_base_url
 }
 
 resource "github_repository_webhook" "default" {
